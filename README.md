@@ -6,7 +6,7 @@ This repository contains two distinct models designed for neural signal processi
 <img width="1225" alt="Screenshot 2024-09-11 at 19 02 36" src="https://github.com/user-attachments/assets/56bd0fd6-8bc5-40a8-80a8-8e4f8e77301d">
 
 ### Project Structure
-'''
+׳׳׳
    ├── LICENSE                           # License for the project
    ├── README.md                         # Project documentation
    ├── classification                    # Folder containing classification model files
@@ -48,7 +48,7 @@ This repository contains two distinct models designed for neural signal processi
    ├── detection                         # Folder containing the detection model
    │   └── detection.ipynb               # Jupyter notebook for detecting speech-related thoughts
    └── requirements.txt                  # List of required Python packages for running the project
-   '''
+ ׳׳׳
 
 ### Models
 1. Classification Model
