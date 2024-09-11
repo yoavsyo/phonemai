@@ -7,48 +7,48 @@ This repository contains two distinct models designed for neural signal processi
 
 ### Project Structure
 '''
-├── LICENSE                           # License for the project
-├── README.md                         # Project documentation
-├── classification                    # Folder containing classification model files
-│   ├── best_params                   # Folder with best parameter configurations for different patients
-│   │   ├── best_params_with_loss.json        # General best parameters file including loss
-│   │   ├── patient_11_optuna.json            # Optimized parameters for patient 11 using Optuna
-│   │   ├── patient_11_with_loss.json         # Parameters and loss for patient 11
-│   │   ├── patient_13_optuna.json            # Optimized parameters for patient 13 using Optuna
-│   │   ├── patient_13_with_loss.json         # Parameters and loss for patient 13
-│   │   ├── patient_15_optuna.json            # Optimized parameters for patient 15 using Optuna
-│   │   ├── patient_15_with_loss.json         # Parameters and loss for patient 15
-│   │   ├── patient_18_optuna.json            # Optimized parameters for patient 18 using Optuna
-│   │   ├── patient_18_with_loss.json         # Parameters and loss for patient 18
-│   │   ├── patient_19_optuna.json            # Optimized parameters for patient 19 using Optuna
-│   │   ├── patient_19_with_loss.json         # Parameters and loss for patient 19
-│   │   ├── patient_1_optuna.json             # Optimized parameters for patient 1 using Optuna
-│   │   ├── patient_1_with_loss.json          # Parameters and loss for patient 1
-│   │   ├── patient_2_optuna.json             # Optimized parameters for patient 2 using Optuna
-│   │   ├── patient_2_with_loss.json          # Parameters and loss for patient 2
-│   │   ├── patient_3_optuna.json             # Optimized parameters for patient 3 using Optuna
-│   │   ├── patient_3_with_loss.json          # Parameters and loss for patient 3
-│   │   ├── patient_5_optuna.json             # Optimized parameters for patient 5 using Optuna
-│   │   ├── patient_5_with_loss.json          # Parameters and loss for patient 5
-│   │   ├── patient_6_optuna.json             # Optimized parameters for patient 6 using Optuna
-│   │   ├── patient_6_with_loss.json          # Parameters and loss for patient 6
-│   │   ├── patient_7_optuna.json             # Optimized parameters for patient 7 using Optuna
-│   │   └── patient_7_with_loss.json          # Parameters and loss for patient 7
-│   └── model                        # Folder containing the model files and plots for classification
-│       ├── accuracy_plot.png         # Plot showing model accuracy
-│       ├── best_params_with_loss.json        # General best parameters file with loss for the classification model
-│       ├── loss_plot.png             # Plot showing model loss over time
-│       ├── main.py                   # Main script to run the classification model
-│       ├── model.py                  # Definition of the LSTM model architecture
-│       ├── parmas_optimizer.py       # Script for optimizing parameters using Optuna
-│       ├── patient_results.csv       # CSV file containing results for different patients
-│       ├── plots                     # Directory for additional plots
-│       ├── try.pth                   # Pre-trained PyTorch model file
-│       └── utils.py                  # Utility functions for classification
-├── detection                         # Folder containing the detection model
-│   └── detection.ipynb               # Jupyter notebook for detecting speech-related thoughts
-└── requirements.txt                  # List of required Python packages for running the project
-'''
+   ├── LICENSE                           # License for the project
+   ├── README.md                         # Project documentation
+   ├── classification                    # Folder containing classification model files
+   │   ├── best_params                   # Folder with best parameter configurations for different patients
+   │   │   ├── best_params_with_loss.json        # General best parameters file including loss
+   │   │   ├── patient_11_optuna.json            # Optimized parameters for patient 11 using Optuna
+   │   │   ├── patient_11_with_loss.json         # Parameters and loss for patient 11
+   │   │   ├── patient_13_optuna.json            # Optimized parameters for patient 13 using Optuna
+   │   │   ├── patient_13_with_loss.json         # Parameters and loss for patient 13
+   │   │   ├── patient_15_optuna.json            # Optimized parameters for patient 15 using Optuna
+   │   │   ├── patient_15_with_loss.json         # Parameters and loss for patient 15
+   │   │   ├── patient_18_optuna.json            # Optimized parameters for patient 18 using Optuna
+   │   │   ├── patient_18_with_loss.json         # Parameters and loss for patient 18
+   │   │   ├── patient_19_optuna.json            # Optimized parameters for patient 19 using Optuna
+   │   │   ├── patient_19_with_loss.json         # Parameters and loss for patient 19
+   │   │   ├── patient_1_optuna.json             # Optimized parameters for patient 1 using Optuna
+   │   │   ├── patient_1_with_loss.json          # Parameters and loss for patient 1
+   │   │   ├── patient_2_optuna.json             # Optimized parameters for patient 2 using Optuna
+   │   │   ├── patient_2_with_loss.json          # Parameters and loss for patient 2
+   │   │   ├── patient_3_optuna.json             # Optimized parameters for patient 3 using Optuna
+   │   │   ├── patient_3_with_loss.json          # Parameters and loss for patient 3
+   │   │   ├── patient_5_optuna.json             # Optimized parameters for patient 5 using Optuna
+   │   │   ├── patient_5_with_loss.json          # Parameters and loss for patient 5
+   │   │   ├── patient_6_optuna.json             # Optimized parameters for patient 6 using Optuna
+   │   │   ├── patient_6_with_loss.json          # Parameters and loss for patient 6
+   │   │   ├── patient_7_optuna.json             # Optimized parameters for patient 7 using Optuna
+   │   │   └── patient_7_with_loss.json          # Parameters and loss for patient 7
+   │   └── model                        # Folder containing the model files and plots for classification
+   │       ├── accuracy_plot.png         # Plot showing model accuracy
+   │       ├── best_params_with_loss.json        # General best parameters file with loss for the classification model
+   │       ├── loss_plot.png             # Plot showing model loss over time
+   │       ├── main.py                   # Main script to run the classification model
+   │       ├── model.py                  # Definition of the LSTM model architecture
+   │       ├── parmas_optimizer.py       # Script for optimizing parameters using Optuna
+   │       ├── patient_results.csv       # CSV file containing results for different patients
+   │       ├── plots                     # Directory for additional plots
+   │       ├── try.pth                   # Pre-trained PyTorch model file
+   │       └── utils.py                  # Utility functions for classification
+   ├── detection                         # Folder containing the detection model
+   │   └── detection.ipynb               # Jupyter notebook for detecting speech-related thoughts
+   └── requirements.txt                  # List of required Python packages for running the project
+   '''
 
 ### Models
 1. Classification Model
