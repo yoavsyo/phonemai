@@ -1,0 +1,10 @@
+{
+    "hidden_size": 160,
+    "num_lstm_layers": 3,
+    "num_fc_layers": 2,
+    "dropout_prob": 0.1,
+    "weight_decay": 7.644394451387315e-06,
+    "learning_rate": 6.860746149356502e-05,
+    "batch_size": 16,
+    "epochs": 41
+}

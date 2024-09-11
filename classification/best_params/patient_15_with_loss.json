@@ -1,0 +1,12 @@
+{
+    "val_acc": 0.6,
+    "val_loss": 1.0879158228635788,
+    "epochs": 44,
+    "learning_rate": 0.00014392011558479747,
+    "weight_decay": 1.0897560589731726e-06,
+    "batch_size": 4,
+    "num_lstm_layers": 3,
+    "num_fc_layers": 2,
+    "dropout_prob": 0.4,
+    "hidden_size": 321
+}
